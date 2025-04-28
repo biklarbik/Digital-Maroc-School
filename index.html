@@ -1,11 +1,299 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital Morocco School - Formez-vous à la Tech</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Digital Morocco School" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Qui sommes nous ?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formations">Formations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#campus">Campus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-danger px-4 py-2" href="#candidature">Candidatez</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Formez-vous à la Tech simplement avec Digital Morocco School</h1>
+                    <p class="lead mb-4">
+                        Découvrez une école où l'innovation, la créativité et les technologies de pointe se rencontrent pour
+                        former les leaders de demain
+                    </p>
+                    <a href="#candidature" class="btn btn-danger btn-lg px-4 py-2">Candidatez</a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="images/student.png" alt="Student working on computer" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5">
+        <div class="container py-5">
+            <h2 class="section-title">Qui Somme Nous! ,</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="mb-4">
+                        <h3 class="h4 fw-bold mb-3">
+                            Digital Morocco School : L'école qui démocratise les métiers du numérique au Maroc
+                        </h3>
+                        <p class="mb-3">
+                            Dans un monde où le numérique et les technologies de pointe sont omniprésents, Digital Morocco School
+                            s'engage à mettre le code entre toutes les mains. Notre mission ? Réduire les inégalités numériques en
+                            offrant à chacun l'opportunité d'acquérir des compétences en programmation, indépendamment de son
+                            parcours ou de ses ressources.
+                        </p>
+                        <p>
+                            Nous croyons en un avenir où tout le monde, sans exception, peut maîtriser le langage numérique et
+                            s'épanouir dans les métiers de la tech. Rejoignez-nous pour ouvrir des portes à un avenir numérique
+                            inclusif et innovant
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="images/school-logo.png" alt="Digital Morocco School Logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us py-5 bg-light">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="images/presentation.png" alt="Presentation" class="img-fluid">
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-tag">Pourquoi nous choisir?</div>
+                    <h2 class="section-title">Pourquoi choisir Digital Morocco School ?</h2>
+                    <p class="mb-4">
+                        Chez Digital Morocco School, nous croyons en une éducation numérique inclusive, innovante et ancrée sur les besoins du marché du travail. Notre mission est de vous donner les compétences nécessaires pour réussir dans les métiers de la tech, tout en embrassant les meilleures pratiques. Voici quelques raisons de nous choisir:
+                    </p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <span>Formations 100% pratiques</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <span>Approche pratique</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle text-success"></i>
+                            <span>Focus sur l'innovation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section py-5">
+        <div class="container py-5">
+            <div class="section-tag text-center">Témoignages</div>
+            <h2 class="section-title text-center mb-5">Découvrez ce que les médias disent de Digital Morocco School et de notre mission pour démocratiser l'accès aux métiers du numérique</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="laptop-container">
+                        <img src="images/laptop.png" alt="Laptop" class="img-fluid">
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#" class="btn btn-link">Lire plus</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-item mb-4">
+                        <i class="fas fa-check-circle text-danger"></i>
+                        <p>"Digital Morocco School s'impose comme le leader incontesté pour former votre avenir professionnel"</p>
+                    </div>
+                    <div class="testimonial-item mb-4">
+                        <i class="fas fa-check-circle text-danger"></i>
+                        <p>"Digital Morocco School s'engage à transformer les compétences des Marocains et à adapter l'éducation aux besoins du marché"</p>
+                    </div>
+                    <div class="text-end">
+                        <a href="#" class="btn btn-link">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section
+    <section class="cta-section py-5 bg-light">
+        <div class="container py-5 text-center">
+            <h2 class="section-title mb-4">Prêt à vous lancer dans les métiers du numérique ?</h2>
+            <p class="lead mb-5">Rejoignez-nous et découvrez le monde passionnant de la tech !</p>
+            <a href="#candidature" class="btn btn-danger btn-lg px-5 py-3">Candidatez</a>
+        </div>
+    </section> -->
+
+    <!-- Formations Section -->
+    <section id="formations" class="formations-section py-5">
+        <div class="container py-5">
+            <div class="section-tag">Nos formations</div>
+            <h2 class="section-title mb-5">Trouvez la formation qui vous correspond et préparez-vous aux métiers de demain</h2>
+            <p class="mb-5">
+                Digital Morocco School propose des formations intensives et pratiques pour répondre aux besoins du marché du travail. Grâce à une approche personnalisée innovante et des formateurs expérimentés, nous vous préparons à exceller dans des métiers comme le développement web, mobile et IA.
+            </p>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="formation-card">
+                        <div class="formation-image">
+                            <img src="images/BE.png" alt="Formation Back-End" class="img-fluid">
+                        </div>
+                        <h3 class="formation-title">Formation Back-End</h3>
+                        <a href="#" class="btn btn-danger">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="formation-card">
+                        <div class="formation-image">
+                            <img src="images/FE.jpg" alt="Formation Front-End" class="img-fluid">
+                        </div>
+                        <h3 class="formation-title">Formation Front-End</h3>
+                        <a href="#" class="btn btn-danger">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="formation-card">
+                        <div class="formation-image">
+                            <img src="images/FS.jpg" alt="Full stack Bootcamp" class="img-fluid">
+                        </div>
+                        <h3 class="formation-title">Full stack Bootcamp</h3>
+                        <a href="#" class="btn btn-danger">En savoir plus</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="formation-card">
+                        <div class="formation-image">
+                            <img src="images/AI.png" alt="IA Bootcamp" class="img-fluid">
+                        </div>
+                        <h3 class="formation-title">IA Bootcamp</h3>
+                        <a href="#" class="btn btn-danger">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5 bg-light">
+        <div class="container py-5">
+            <div class="section-tag">Contact</div>
+            <h2 class="section-title mb-4">Contactez-nous</h2>
+            <p class="mb-5">
+                Vous avez des questions, besoin d'informations ou souhaitez rejoindre notre école ? Notre équipe est à votre écoute pour vous accompagner. N'hésitez pas à nous contacter par téléphone, email ou à nous rendre visite directement à notre campus.
+            </p>
+            <div class="row">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Téléphone</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger px-4 py-2">Envoyer</button>
+                    </form>
+                </div>
+                <div class="col-lg-5">
+                    <div class="contact-illustration">
+                        <img src="images/contact-illustration.png" alt="Contact" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="images/8f5b3959fe8581d6253c3c5103434273.png" alt="Woman with phone" class="img-fluid footer-illustration">
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-logo mb-4">
+                        <img src="images/school-logo.png" alt="Digital Morocco School" height="80">
+                    </div>
+                    <h4 class="mb-3">Restez connecté</h4>
+                    <p class="mb-3">contact@digitalmoroccoschool.com</p>
+                    <div class="social-icons mb-4">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="copyright">© Copyright © Digital Morocco School</p>
+                    <p class="powered-by">Powered by <img src="images/learnworlds-logo.png" alt="LearnWorlds" height="20"></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script>
+        // setInterval(function() {
+        //     document.body.style.backgroundColor = 
+        //         '#' + Math.floor(Math.random()*16777215).toString(16);
+        // }, 1000); // every 1 second
+        // </script> -->
+        
 </body>
 </html>

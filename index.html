@@ -35,7 +35,16 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- 
+                    collapse navbar-collapse: tells Bootstrap this part should be collapsible on small screens.
+                    justify-content-end: pushes the menu to the right side.
+                   id="navbarNav": connects to the hamburger button (data-target="#navbarNav"). LOOK BELOW
+            -->
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <!--
+                   navbar-nav: styles the <ul> as a Bootstrap nav list.
+                  align-items-center: vertically centers items inside the navbar.
+                -->
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Qui sommes nous ?</a>
@@ -49,7 +58,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <!-- ms-lg-3 = adds left margin (space) when the screen is large (lg) or bigger. -->
+                     <!--
+                          ms → margin-start (means left in left-to-right languages)
+                          lg → applies the margin when screen is large or wider
+                          3 → means about 1rem of spacing LOOK BELOW :-)
+                     -->
+                    <!-- ms-lg-3: margin-left on large screens, creates spacing from other items. -->
                     <li class="nav-item ms-lg-3">
+                        <!-- btn btn-danger: makes it a red Bootstrap button.
+                             px-4 py-2: padding inside the button.LOOK BELOW-->
                         <a class="btn btn-danger px-4 py-2" href="#">Candidatez</a>
                     </li>
                 </ul>

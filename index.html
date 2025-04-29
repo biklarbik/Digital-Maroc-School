@@ -15,11 +15,22 @@
 </head>
 <body>
     <!-- Navigation -->
+     <!--
+          navbar => Makes this a Bootstrap navbar (navigation bar).
+          navbar-expand-lg => Navbar expands (becomes horizontal) on large screens and up.
+          navbar-light => Gives the text/icons a light theme (dark text).
+          bg-white => Gives the navbar a white background.
+          py-2 => Adds padding (top & bottom spacing) around the navbar.
+          shadow-sm => Adds a small shadow under the navbar to make it look slightly raised.
+     -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 shadow-sm">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Digital Morocco School" height="50">
             </a>
+            <!--
+                The below code shows or hides the menu when you click it on smaller screens.
+            -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,7 +50,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item ms-lg-3">
-                        <a class="btn btn-danger px-4 py-2" href="#candidature">Candidatez</a>
+                        <a class="btn btn-danger px-4 py-2" href="#">Candidatez</a>
                     </li>
                 </ul>
             </div>
@@ -264,7 +275,7 @@
                 </div>
                 <div class="col-md-6 text-md-end">
                     <div class="footer-logo mb-4">
-                        <img src="images/school-logo.png" alt="Digital Morocco School" class="moroccan-flag">
+                        <img src="images/school-logo.png" alt="Digital Morocco School" height="80" class="moroccan-flag">
                     </div>
                     <h4 class="mb-3">Restez connecté</h4>
                     <p class="mb-3">contact@digitalmoroccoschool.com</p>

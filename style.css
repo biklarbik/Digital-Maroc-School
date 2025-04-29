@@ -24,7 +24,6 @@ body {
     color: var(--dark-color);
     margin-bottom: 1.5rem;
     font-size: 2rem;
-    
 }
 
 /* Navigation styling */
@@ -206,16 +205,12 @@ body {
 }
 
 .footer-illustration {
-    display: block;
-    width: 300px;
-    height: 392.212px;
-    
+    width: 200px; /* Set a specific max-width */
+    height: 290;
+    display: block; /* Ensures proper alignment */
 }
   
-  .moroccan-flag{
-    height: 120px;
-    width: 80
-  }
+  
 
 .social-icons {
     display: flex;

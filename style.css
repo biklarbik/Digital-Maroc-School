@@ -24,6 +24,7 @@ body {
     color: var(--dark-color);
     margin-bottom: 1.5rem;
     font-size: 2rem;
+    
 }
 
 /* Navigation styling */
@@ -138,10 +139,10 @@ body {
     color: #c82333;
 }
 
-/* CTA Section */
+/* CTA Section
 .cta-section {
     background-color: #f8f9fa;
-}
+} */
 
 /* Formations Section */
 .formation-card {
@@ -205,34 +206,16 @@ body {
 }
 
 .footer-illustration {
+    display: block;
     width: 300px;
     height: 392.212px;
     
-    object-fit: cover; /* keeps image nice without distortion */
-    display: block;
-    margin: auto; /* centers the image */
-    box-sizing: border-box;
-    color: rgb(42, 47, 52);
-    display: block;
-    flex-shrink: 0;
-    font-size: 0px;
-    font-style: normal;
-    height: 392.212px;
-    margin-bottom: 0px;
-    margin-left: 26.2px;
-    margin-right: 26.2px;
-    max-width: 100%;
-    overflow-clip-margin: content-box;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    text-align: center;
-    width: 300px;
-    -webkit-font-smoothing: antialiased;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+  
+  .moroccan-flag{
+    height: 120px;
+    width: 80
   }
-  
-  
 
 .social-icons {
     display: flex;

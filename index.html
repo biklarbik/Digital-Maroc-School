@@ -76,17 +76,28 @@
     </nav>
 
     <!-- Hero Section -->
+     <!--
+       py-5 vertical padding inside the container
+       row: Starts a Bootstrap flexbox grid row.
+       align-items-center: Vertically centers all column content inside the row (thanks to Flexbox). LOOK BELOW
+     -->
     <section class="hero py-5">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <!-- col-lg-6: This column takes 6 out of 12 grid columns (i.e., half the width) on large screens and up. 
+                               On smaller screens, it stacks.LOOK BELOW-->
+                <div class="col-lg-6"> 
+                    <!-- fw-bold: Font-weight bold. -->
                     <h1 class="display-4 fw-bold mb-4">Formez-vous à la Tech simplement avec Digital Morocco School</h1>
+                    
+                    <!--'lead' makes the text stand out, and 'mb-4' adds bottom margin (1rem / 16px)   LOOK BELOW-->
                     <p class="lead mb-4">
                         Découvrez une école où l'innovation, la créativité et les technologies de pointe se rencontrent pour
                         former les leaders de demain
                     </p>
                     <a href="#candidature" class="btn btn-danger btn-lg px-4 py-2">Candidatez</a>
                 </div>
+                <!-- This column takes up half the width on large screens (col-lg-6) and centers its content (text-center) LOOK BELOW -->
                 <div class="col-lg-6 text-center">
                     <img src="images/student.png" alt="Student working on computer" class="img-fluid">
                 </div>
@@ -97,7 +108,7 @@
     <!-- About Section -->
     <section id="about" class="about py-5">
         <div class="container py-5">
-            <h2 class="section-title">Qui Somme Nous! ,</h2>
+            <h2 class="section-title"></h2>
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="mb-4">
@@ -317,12 +328,9 @@
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- <script>
-        // setInterval(function() {
-        //     document.body.style.backgroundColor = 
-        //         '#' + Math.floor(Math.random()*16777215).toString(16);
-        // }, 1000); // every 1 second
-        // </script> -->
+   
+
+    <script src="main.js"></script>
         
 </body>
 </html>
